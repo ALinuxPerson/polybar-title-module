@@ -1,0 +1,19 @@
+[package]
+name = "polybar-title-module"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+convert_case = "0.6.0"
+directories = "5.0.0"
+figment = { version = "0.10.8", features = ["toml"] }
+handlebars = "4.3.6"
+serde = { version = "1.0.157", features = ["derive"] }
+serde_with = "2.3.1"
+toml = "0.7.3"
+tracing = "0.1.37"
+tracing-subscriber = "0.3.16"
+x11rb = "0.11.1"

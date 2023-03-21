@@ -1,0 +1,28 @@
+# options way
+# [resolver.filters.794874]
+# filter = "options"
+# 
+# [resolver.filters.794874.value]
+# trim = true
+# capitalize = "all_words"
+#
+
+[resolver]
+desktop_name = "Desktop"
+
+[resolver.global_options]
+capitalize = "first_letter"
+
+[resolver.filters."wmc=jetbrains-idea-ce"]
+filter = "new_name"
+value = "IntelliJ Idea Community"
+
+[resolver.filters."wmc=teams-for-linux"]
+filter = "new_name"
+value = "Microsoft Teams"
+
+[resolver.filters."wmc=Vmplayer"]
+filter = "new_name"
+value = "VMware Player"
+
+
